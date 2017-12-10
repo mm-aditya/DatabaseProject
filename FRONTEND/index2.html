@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Databases</title>
+    <title>Rent-a-dude: Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Loading Bootstrap -->
@@ -267,7 +267,13 @@
           <img src="img_avatar4.png" alt="Avatar" style="width:30%" class="w3-circle w3-margin-top">
         </div>
 
-        <form class="w3-container" action="/action_page.php">
+        <div id="slider" class="ui-slider">
+           <!--  <div class="ui-slider-segment"></div>
+            <div class="ui-slider-segment"></div>
+            <div class="ui-slider-segment"></div> -->
+        </div>
+
+       <!--  <form class="w3-container" action="/action_page.php">
           <div class="w3-section">
             <label><b>Username</b></label>
             <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Username" name="usrname" required>
@@ -282,7 +288,7 @@
         <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
           <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-red">Cancel</button>
           <span class="w3-right w3-padding w3-hide-small">Forgot <a href="#">password?</a></span>
-        </div>
+        </div> -->
 
       </div>
     </div>
@@ -297,11 +303,15 @@
     <!-- jQuery (necessary for Flat UI's JavaScript plugins) -->
     <script srch="dist/js/vendor/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="dist/js/vendor/jquery.min.js"></script>
     <script src="dist/js/vendor/video.js"></script>
-    <script src="dist/js/flat-ui.min.js"></script>
+    <script src="dist/js/flat-ui.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
 
-    <script src="js/bootstrap.min.js"></script>
-    <script>
+
+
+
+<!--     <script>
         var $slider = $("#slider");
         if ($slider.length > 0) {
           $slider.slider({
@@ -312,7 +322,7 @@
             range: "min"
           }).addSliderSegments($slider.slider("option").max);
         }
-    </script>
+    </script> -->
 
   </body>
 
